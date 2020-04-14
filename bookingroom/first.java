@@ -18,7 +18,7 @@ class Main {
       switch(ch){
         case 1:
           
-           System.out.println("Enter the number of persons");
+           System.out.println("Enter the number of persons:");
            int n=sc.nextInt();
            ArrayList<String> name=m.addDetails(n);
            k=name.size();
